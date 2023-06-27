@@ -1,0 +1,60 @@
+{% extends '_base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+    <div class="contact-area default-padding">
+
+        <div class="container">
+            <div class="contact-items">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 contact-box left-info">
+                        <div class="about-section">
+                            <h1>About Us</h1>
+                            <h3>What is a password manager?</h3>
+                            <img src="{% static '/images/lock.jpg' %}" alt="SecurityLock">
+                            <br>
+                            <br>
+                            <p>You have more passwords than you can remember? They all require you to have complex
+                                requirements. A minimum of 8 characters? So how are you supposed to remember so many
+                                strong and unique passwords? Well, you cannot it is not possible. But a password manager
+                                can remember them for you.</p>
+                            <p>
+                                A password manager allows you to store and save your passwords, and access them anytime
+                                with the help of just one master password. Our password is simple and easy to use no
+                                need for daunting digital features. We keep our design simple and make it so anyone can
+                                use the password manager. All you need to do is click to add your credentials and then
+                                save them. Every time you need access to them just log in, copy, and paste away!
+                            </p>
+                            <h3>
+                                Secure password vault
+                                <i class='fa-solid fa-vault' style="font-size: 36px;"></i>
+                            </h3>
+                            <p>
+                                Store all your credentials securely
+                            </p>
+                            <h3>
+                                Export passwords using CSV format
+
+                                <i class='fas fa-file-export' style="font-size: 36px;"></i>
+
+                            </h3>
+                            <p>
+                                Never lose your vault data and export safely
+                            </p>
+                            <h3>
+                                Edit passwords anytime
+                                <i class='fa fa-edit' style="font-size: 36px;"></i>
+                            </h3>
+                            <p>
+                                Edit your credentials at anytime in case you change your password for a specific site
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
